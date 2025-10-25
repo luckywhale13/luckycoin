@@ -1,0 +1,33 @@
+# /etc/conf.d/luckycoind: config file for /etc/init.d/luckycoind
+
+# Config file location
+#LUCKYCOIND_CONFIGFILE="/etc/luckycoin/luckycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $LUCKYCOIND_USER)
+#LUCKYCOIND_PIDDIR="/var/run/luckycoind"
+
+# What filename to give the pidfile
+#LUCKYCOIND_PIDFILE="${LUCKYCOIND_PIDDIR}/luckycoind.pid"
+
+# Where to write luckycoind data (be mindful that the blockchain is large)
+#LUCKYCOIND_DATADIR="/var/lib/luckycoind"
+
+# User and group to own luckycoind process
+#LUCKYCOIND_USER="luckycoin"
+#LUCKYCOIND_GROUP="luckycoin"
+
+# Path to luckycoind executable
+#LUCKYCOIND_BIN="/usr/bin/luckycoind"
+
+# Nice value to run luckycoind under
+#LUCKYCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+LUCKYCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for luckycoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+LUCKYCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Luckycoin Core
+Comment=Connect to the Luckycoin P2P Network
+Comment[de]=Verbinde mit dem Luckycoin peer-to-peer Netzwerk
+Comment[fr]=Luckycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Luckycoin, eşten eşe kriptografik sanal para birimi
+Exec=luckycoin-qt %u
+Terminal=false
+Type=Application
+Icon=luckycoin128
+MimeType=x-scheme-handler/luckycoin;
+Categories=Office;Finance;
