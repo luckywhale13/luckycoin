@@ -2,12 +2,14 @@
 <img src="https://pbs.twimg.com/media/GZhUfpHWwA8P4B_?format=png&name=small" alt="Luckycoin" width="300"/>
 <br/><br/>
 Luckycoin Core [LKY]  
+<br/>
+A Legend Reborn!
 </h1>
 
 <div align="center">
 
 [![LuckycoinBadge](https://img.shields.io/badge/Lucky-Coin-yellow.svg)](https://luckycoinfoundation.org)
-[![MuchWow](https://img.shields.io/badge/OG-Coin-yellow.svg)](https://luckycoinfoundation.org)
+[![MuchWow](https://img.shields.io/badge/Legend-Reborn-yellow.svg)](https://luckycoinfoundation.org)
 
 </div>
 
@@ -24,20 +26,20 @@ To start your journey with Luckycoin Core, see the [installation guide](INSTALL.
 
 The JSON-RPC API provided by Luckycoin Core is self-documenting and can be browsed with `luckycoin-cli help`, while detailed information for each command can be viewed with `luckycoin-cli help <command>`. Alternatively, see the [Bitcoin Core documentation](https://developer.bitcoin.org/reference/rpc/) - which implement a similar protocol - to get a browsable version.
 
-### Such ports
+### Ports
 
-Luckycoin Core by default uses port `22556` for peer-to-peer communication that
+Luckycoin Core by default uses port `9917` for peer-to-peer communication that
 is needed to synchronize the "mainnet" blockchain and stay informed of new
 transactions and blocks. Additionally, a JSONRPC port can be opened, which
-defaults to port `22555` for mainnet nodes. It is strongly recommended to not
+defaults to port `9918` for mainnet nodes. It is strongly recommended to not
 expose RPC ports to the public internet.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+| P2P      |   9917 |   19917 |   29917 |
+| RPC      |   9918 |   19918 |   29918 |
 
-## Ongoing development - Moon plan 🌒
+## Ongoing development - Get Lucky! 🍀
 
 Luckycoin Core is an open source and community driven software. The development
 process is open and publicly visible; anyone can see, discuss and work on the
@@ -88,9 +90,9 @@ Here are some places to visit:
 * [Luckycoin subreddit](https://www.reddit.com/r/luckycoin/)
 * [Dogeducation subreddit](https://www.reddit.com/r/dogeducation/)
 * [Discord](https://discord.gg/luckycoin)
-* [Luckycoin Twitter](https://twitter.com/luckycoin)
+* [Luckycoin Twitter](https://twitter.com/luckycoinfdn)
 
-## Very Much Frequently Asked Questions ❓
+## Frequently Asked Questions ❓
 
 Do you have a question regarding Luckycoin? An answer is perhaps already in the
 [FAQ](doc/FAQ.md) or the
