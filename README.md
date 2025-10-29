@@ -2,8 +2,6 @@
 <img src="https://pbs.twimg.com/media/GZhUfpHWwA8P4B_?format=png&name=small" alt="Luckycoin" width="300"/>
 <br/><br/>
 Luckycoin Core [LKY]  
-<br/>
-A Legend Reborn!
 </h1>
 
 <div align="center">
